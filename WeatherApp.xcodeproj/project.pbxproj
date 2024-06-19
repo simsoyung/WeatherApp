@@ -10,9 +10,13 @@
 		46BD5DF62C22F17C00BF58C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5DF52C22F17C00BF58C4 /* AppDelegate.swift */; };
 		46BD5DF82C22F17C00BF58C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5DF72C22F17C00BF58C4 /* SceneDelegate.swift */; };
 		46BD5DFA2C22F17C00BF58C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5DF92C22F17C00BF58C4 /* ViewController.swift */; };
-		46BD5DFD2C22F17C00BF58C4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46BD5DFC2C22F17C00BF58C4 /* Base */; };
 		46BD5DFF2C22F17F00BF58C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BD5DFE2C22F17F00BF58C4 /* Assets.xcassets */; };
 		46BD5E022C22F17F00BF58C4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46BD5E012C22F17F00BF58C4 /* Base */; };
+		46BD5E0B2C22F71200BF58C4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46BD5E0A2C22F71200BF58C4 /* SnapKit */; };
+		46BD5E0E2C22F71F00BF58C4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 46BD5E0D2C22F71F00BF58C4 /* Alamofire */; };
+		46BD5E102C22F8E500BF58C4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5E0F2C22F8E500BF58C4 /* Extension.swift */; };
+		46BD5E122C22FBC500BF58C4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46BD5E112C22FBC500BF58C4 /* .gitignore */; };
+		46BD5E142C22FBD400BF58C4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5E132C22FBD400BF58C4 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,12 @@
 		46BD5DF52C22F17C00BF58C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BD5DF72C22F17C00BF58C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46BD5DF92C22F17C00BF58C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46BD5DFC2C22F17C00BF58C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46BD5DFE2C22F17F00BF58C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BD5E012C22F17F00BF58C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BD5E032C22F17F00BF58C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD5E0F2C22F8E500BF58C4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		46BD5E112C22FBC500BF58C4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		46BD5E132C22FBD400BF58C4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46BD5E0B2C22F71200BF58C4 /* SnapKit in Frameworks */,
+				46BD5E0E2C22F71F00BF58C4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		46BD5DE92C22F17B00BF58C4 = {
 			isa = PBXGroup;
 			children = (
+				46BD5E112C22FBC500BF58C4 /* .gitignore */,
 				46BD5DF42C22F17C00BF58C4 /* WeatherApp */,
 				46BD5DF32C22F17C00BF58C4 /* Products */,
 			);
@@ -59,7 +68,8 @@
 				46BD5DF52C22F17C00BF58C4 /* AppDelegate.swift */,
 				46BD5DF72C22F17C00BF58C4 /* SceneDelegate.swift */,
 				46BD5DF92C22F17C00BF58C4 /* ViewController.swift */,
-				46BD5DFB2C22F17C00BF58C4 /* Main.storyboard */,
+				46BD5E0F2C22F8E500BF58C4 /* Extension.swift */,
+				46BD5E132C22FBD400BF58C4 /* API.swift */,
 				46BD5DFE2C22F17F00BF58C4 /* Assets.xcassets */,
 				46BD5E002C22F17F00BF58C4 /* LaunchScreen.storyboard */,
 				46BD5E032C22F17F00BF58C4 /* Info.plist */,
@@ -83,6 +93,10 @@
 			dependencies = (
 			);
 			name = WeatherApp;
+			packageProductDependencies = (
+				46BD5E0A2C22F71200BF58C4 /* SnapKit */,
+				46BD5E0D2C22F71F00BF58C4 /* Alamofire */,
+			);
 			productName = WeatherApp;
 			productReference = 46BD5DF22C22F17C00BF58C4 /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,10 @@
 				Base,
 			);
 			mainGroup = 46BD5DE92C22F17B00BF58C4;
+			packageReferences = (
+				46BD5E092C22F71200BF58C4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				46BD5E0C2C22F71F00BF58C4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 46BD5DF32C22F17C00BF58C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BD5DFF2C22F17F00BF58C4 /* Assets.xcassets in Resources */,
+				46BD5E122C22FBC500BF58C4 /* .gitignore in Resources */,
 				46BD5E022C22F17F00BF58C4 /* Base in Resources */,
-				46BD5DFD2C22F17C00BF58C4 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +159,14 @@
 				46BD5DFA2C22F17C00BF58C4 /* ViewController.swift in Sources */,
 				46BD5DF62C22F17C00BF58C4 /* AppDelegate.swift in Sources */,
 				46BD5DF82C22F17C00BF58C4 /* SceneDelegate.swift in Sources */,
+				46BD5E102C22F8E500BF58C4 /* Extension.swift in Sources */,
+				46BD5E142C22FBD400BF58C4 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46BD5DFB2C22F17C00BF58C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46BD5DFC2C22F17C00BF58C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46BD5E002C22F17F00BF58C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +308,9 @@
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +318,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.soyung.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,9 +339,9 @@
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +349,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.soyung.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +381,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46BD5E092C22F71200BF58C4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		46BD5E0C2C22F71F00BF58C4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46BD5E0A2C22F71200BF58C4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46BD5E092C22F71200BF58C4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		46BD5E0D2C22F71F00BF58C4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46BD5E0C2C22F71F00BF58C4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46BD5DEA2C22F17B00BF58C4 /* Project object */;
 }
